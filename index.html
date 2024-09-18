@@ -5,39 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Poem Generator</title>
+    <title>French Poem AI Generator</title>
   </head>
   <body>
-    <h1>Poem Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Demain, dès l'aube, à l'heure où blanchit la campagne,
-        <br />
-        Je partirai. Vois-tu, je sais que tu m'attends.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Sheen327" target="_blank">Sheena Ak</a> , is
-      open sourced on
-      <a href="https://github.com/Sheen327/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://poem-generator-ai-work.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <h1>French Poem Generator</h1>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic of French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Demain, dès l'aube, à l'heure où blanchit la campagne,
+          <br />
+          Je partirai. Vois-tu, je sais que tu m'attends.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Sheen327" target="_blank">Sheena Ak</a> , is
+        open sourced on
+        <a href="https://github.com/Sheen327/poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://poem-generator-ai-work.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
